@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #3498db;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Destination Card */
+.destination-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Activity List */
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity-list li {
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.activity-list li:hover {
+    background-color: #e9f5ff;
+}
+
+.activity-list li strong {
+    color: #3498db;
+    font-size: 1.1rem;
+}
